@@ -13,11 +13,6 @@ dotenv.config();
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
- /* MÓDULO dotenv */
- const dotenv = require('dotenv');
-
- /* CARGA DE DATOS DE CONFIGURACION EN MEMORIA */
- dotenv.config();
  
 var app = express();
 
