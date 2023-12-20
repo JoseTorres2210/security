@@ -5,13 +5,13 @@
     "title": "REST API",
     "description": ""
   },
-  "host": "localhost:3000",
+  "host": "localhost:3002",
   "basePath": "/",
   "schemes": [
     "http"
   ],
   "paths": {
-    "/": {
+    "/users": {
       "get": {
         "description": "",
         "responses": {
@@ -21,7 +21,7 @@
         }
       }
     },
-    "/register": {
+    "/users/register": {
       "post": {
         "description": "",
         "parameters": [
@@ -51,7 +51,7 @@
         }
       }
     },
-    "/generateToken": {
+    "/users/generateToken": {
       "post": {
         "description": "",
         "parameters": [
