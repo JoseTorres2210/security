@@ -4,6 +4,7 @@ var router = express.Router();
 /* Módulo jsonwebtoken */
 const jwt = require('jsonwebtoken');
 
+/* Módulo crypto */
 let crypto = require('crypto');
 
 /* Referencia a los modelos */
